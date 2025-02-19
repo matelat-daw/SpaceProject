@@ -1,0 +1,28 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SpaceUser.Models.User
+{
+    public class Register
+    {
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), Display(Name = "Nombre: ")]
+        public string? Name { get; set; }
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), Display(Name = "Apellido 1: ")]
+        public string? Surname1 { get; set; }
+        [Display(Name = "Apellido 2: ")]
+        public string? Surname2 { get; set; }
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.EmailAddress)]
+        public string? Email { get; set; }
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Password)]
+        public string? Password { get; set; }
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Password), Compare("Password", ErrorMessage = "Las Contraseña no Coinciden, Por Favor Escribelas de Nuevo.")]
+        public string? Password2 { get; set; }
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio.")]
+        public string? PhoneNumber { get; set; }
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Date)]
+        public DateOnly Bday { get; set; }
+        [Display(Name = "Foto de Perfil: ")]
+        public IFormFile? ProfileImageFile { get; set; }
+
+        public bool Active { get; set; }
+    }
+}
