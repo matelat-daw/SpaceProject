@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\SpaceUser\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\models\\user\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\models\\user\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:models\\user\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\models\\user\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\models\\user\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:models\\user\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\spaceuser\\models\\user\\spaceuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|c:\\users\\administrador\\documents\\projects\\spaceuser\\models\\user\\spaceuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B864181-9389-433B-B6F5-94B63854DB92}|SpaceUser.csproj|solutionrelative:models\\user\\spaceuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -72,22 +72,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T16:05:32.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T16:05:32.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,11 +96,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwDsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-18T15:41:53.461Z",
               "EditorCaption": ""
@@ -110,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Account\\Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Account\\Profile.cshtml",
               "RelativeToolTip": "Views\\Account\\Profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -122,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -134,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Data\\UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Data\\UserContext.cs",
               "RelativeDocumentMoniker": "Data\\UserContext.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Data\\UserContext.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Data\\UserContext.cs",
               "RelativeToolTip": "Data\\UserContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,9 +157,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Models\\User\\Register.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Models\\User\\Register.cs",
               "RelativeDocumentMoniker": "Models\\User\\Register.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Models\\User\\Register.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Models\\User\\Register.cs",
               "RelativeToolTip": "Models\\User\\Register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -170,9 +169,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Models\\User\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Models\\User\\Login.cs",
               "RelativeDocumentMoniker": "Models\\User\\Login.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Models\\User\\Login.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Models\\User\\Login.cs",
               "RelativeToolTip": "Models\\User\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -182,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "SpaceUser.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Models\\User\\SpaceUser.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Models\\User\\SpaceUser.cs",
               "RelativeDocumentMoniker": "Models\\User\\SpaceUser.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Documents\\SpaceUser\\Models\\User\\SpaceUser.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\Models\\User\\SpaceUser.cs",
               "RelativeToolTip": "Models\\User\\SpaceUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

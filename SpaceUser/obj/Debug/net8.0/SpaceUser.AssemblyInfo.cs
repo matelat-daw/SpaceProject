@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceUser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d538c9cf87bdcf33cdc678ad320d1e8ab5dba576")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceUser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceUser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

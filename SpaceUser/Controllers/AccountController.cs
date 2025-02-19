@@ -40,16 +40,18 @@ namespace SpaceUser.Controllers
 
                 if (model.ProfileImageFile != null)
                 {
-                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "imgs/profile");
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imgs/profile/" + model.Email);
                     Directory.CreateDirectory(uploadsFolder);
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + model.ProfileImageFile.FileName;
+                    var uniqueFileName = model.ProfileImageFile.FileName;
                     var filePath = Path.Combine(uploadsFolder, uniqueFileName);
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
                         await model.ProfileImageFile.CopyToAsync(fileStream);
                     }
-                    profileImagePath = "/imgs/profile/" + uniqueFileName;
+                    profileImagePath = "/imgs/profile/" + model.Email + "/" + uniqueFileName;
                 }
+
+                profileImagePath ??= "/imgs/default-profile.jpg";
 
                 Models.User.SpaceUser user = new()
                 {
@@ -61,13 +63,14 @@ namespace SpaceUser.Controllers
                     PhoneNumber = model.PhoneNumber,
                     ProfileImage = profileImagePath,
                     Bday = model.Bday,
-                    Active = model.Active
+                    Active = false
                 };
 
                 var result = await userManager.CreateAsync(user, model.Password!);
 
                 if (result.Succeeded)
                 {
+                    await userManager.AddToRoleAsync(user, "Basic");
                     await signInManager.SignInAsync(user, false);
                     return RedirectToAction("Index", "Home");
                 }

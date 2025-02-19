@@ -1,6 +1,11 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\profiles\73500ace-930f-4384-bea3-449c1374d428_Moon.jpg
+wwwroot\imgs\default-profile.jpg
+wwwroot\imgs\profile\8@8.com\Moon.jpg
+wwwroot\imgs\profile\9@9.com\Moon.jpg
+wwwroot\imgs\profile\cesarmatelat@gmail.com\profile.jpg
+wwwroot\imgs\profile\ledesma.leslie@gmail.com\Leslie.jpg
+wwwroot\imgs\profile\patrickmurphygon@gmail.com\Patrick.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

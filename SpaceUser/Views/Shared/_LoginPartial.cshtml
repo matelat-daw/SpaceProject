@@ -7,8 +7,11 @@
     @if (signInManager.IsSignedIn(User))
     {
         var userId = UserManager.GetUserId(User);
+        var user = await UserManager.GetUserAsync(User);
+        var profileImageUrl = user?.ProfileImage ?? "/imgs/default-profile.jpg"; // Ruta de imagen por defecto si no hay imagen de perfil
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="@profileImageUrl" alt="Profile Image" style="width: 30px; height: 30px; border-radius: 50%;" />
                 Hola @User.Identity!.Name
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

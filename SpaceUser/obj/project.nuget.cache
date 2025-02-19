@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Olea2rL+DPs=",
+  "dgSpecHash": "QARQiOE4b+Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrador\\Documents\\SpaceUser\\SpaceUser.csproj",
+  "projectFilePath": "C:\\Users\\Administrador\\Documents\\Projects\\SpaceUser\\SpaceUser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
