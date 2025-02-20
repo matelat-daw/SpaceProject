@@ -14,7 +14,7 @@ builder.Services.AddDbContext<UserContext>(options =>
 
 //builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddIdentity<SpaceUser.Models.User.SpaceUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddIdentity<SpaceUser.Models.User.SpaceUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<UserContext>()
     .AddDefaultTokenProviders();
 
