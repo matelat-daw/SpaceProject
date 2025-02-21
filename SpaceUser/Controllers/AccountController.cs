@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using SpaceUser.Interface;
 using SpaceUser.Models.User;
 
 namespace SpaceUser.Controllers
 {
-    public class AccountController(SignInManager<Models.User.SpaceUser> signInManager, UserManager<Models.User.SpaceUser> userManager) : Controller
+    public class AccountController(IEmailSender emailSender, SignInManager<Models.User.SpaceUser> signInManager, UserManager<Models.User.SpaceUser> userManager) : Controller
     {
         public IActionResult Login()
         {
@@ -71,8 +72,12 @@ namespace SpaceUser.Controllers
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(user, "Basic");
-                    await signInManager.SignInAsync(user, false);
-                    return RedirectToAction("Index", "Home");
+                    var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var confirmationLink = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token }, Request.Scheme);
+
+                    await emailSender.SendEmailAsync(user.Email, "Confirma tu correo electrónico", $"Por favor confirma tu cuenta haciendo clic en este enlace: <a href='{confirmationLink}'>Confirmar Correo</a>");
+
+                    return RedirectToAction("Login", "Account");
                 }
                 foreach (var error in result.Errors)
                 {
@@ -81,6 +86,29 @@ namespace SpaceUser.Controllers
             }
             return View(model);
         }
+
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (userId == null || token == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            var user = await userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var result = await userManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+            {
+                return View("ConfirmEmail");
+            }
+
+            return View("Error");
+        }
+
 
         public async Task<IActionResult> Logout()
         {
