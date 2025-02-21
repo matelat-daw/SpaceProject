@@ -10,19 +10,17 @@ namespace SpaceUser.Models.User
         public string? Surname1 { get; set; }
         [Display(Name = "Apellido 2: ")]
         public string? Surname2 { get; set; }
-        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.EmailAddress)]
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.EmailAddress), Display(Name = "E-mail: ")]
         public string? Email { get; set; }
-        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Password)]
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Password), Display(Name = "Contraseña: ")]
         public string? Password { get; set; }
-        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Password), Compare("Password", ErrorMessage = "Las Contraseña no Coinciden, Por Favor Escribelas de Nuevo.")]
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Password), Compare("Password", ErrorMessage = "Las Contraseña no Coinciden, Por Favor Escribelas de Nuevo."), Display(Name = "Repite Contraseña: ")]
         public string? Password2 { get; set; }
-        [Required(ErrorMessage = "El Campo {0} es Obligatorio.")]
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), Display(Name = "Teléfono: ")]
         public string? PhoneNumber { get; set; }
-        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Date)]
+        [Required(ErrorMessage = "El Campo {0} es Obligatorio."), DataType(DataType.Date), Display(Name = "Fecha de Nacimiento: ")]
         public DateOnly Bday { get; set; }
         [Display(Name = "Foto de Perfil: ")]
         public IFormFile? ProfileImageFile { get; set; }
-
-        public bool Active { get; set; }
     }
 }

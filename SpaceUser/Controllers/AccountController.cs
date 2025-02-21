@@ -22,7 +22,7 @@ namespace SpaceUser.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
-                ModelState.AddModelError("", "Credenciales No Válidas, Inténtalo de Nuevo.");
+                ModelState.AddModelError("", "Credenciales No Válidas, o Aun No has Activado Tu Cuenta.");
             }
             return View(model);
         }
@@ -63,8 +63,7 @@ namespace SpaceUser.Controllers
                     Email = model.Email,
                     PhoneNumber = model.PhoneNumber,
                     ProfileImage = profileImagePath,
-                    Bday = model.Bday,
-                    Active = false
+                    Bday = model.Bday
                 };
 
                 var result = await userManager.CreateAsync(user, model.Password!);

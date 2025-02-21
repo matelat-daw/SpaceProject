@@ -21,10 +21,10 @@ namespace SpaceUser.Data
                 NormalizedUserName = "LEDESMA.LESLIE@GMAIL.COM",
                 Email = "ledesma.leslie@gmail.com",
                 NormalizedEmail = "LEDESMA.LESLIE@GMAIL.COM",
+                EmailConfirmed = true,
                 PhoneNumber = "644388160",
                 Bday = DateOnly.Parse("1995-07-15"),
-                ProfileImage = "/images/1/profile.jpg",
-                Active = true
+                ProfileImage = "/imgs/profile/ledesma.leslie@gmail.com/Leslie.jpg"
             },
             new()
             {
@@ -35,10 +35,10 @@ namespace SpaceUser.Data
                 NormalizedUserName = "PATRICKMURPHYGON@GMAIL.COM",
                 Email = "patrickmurphygon@gmail.com",
                 NormalizedEmail = "PATRICKMURPHYGON@GMAIL.COM",
+                EmailConfirmed = true,
                 PhoneNumber = "634547833",
                 Bday = DateOnly.Parse("2001-01-03"),
-                ProfileImage = "/images/2/profile.jpg",
-                Active = true
+                ProfileImage = "/imgs/profile/patrickmurphygon@gmail.com/Patrick.jpg"
             },
             new()
             {
@@ -49,10 +49,10 @@ namespace SpaceUser.Data
                 NormalizedUserName = "CESARMATELAT@GMAIL.COM",
                 Email = "cesarmatelat@gmail.com",
                 NormalizedEmail = "CESARMATELAT@GMAIL.COM",
+                EmailConfirmed = true,
                 PhoneNumber = "664774821",
                 Bday = DateOnly.Parse("1968-04-05"),
-                ProfileImage = "/images/3/profile.jpg",
-                Active = true
+                ProfileImage = "/imgs/profile/cesarmatelat@gmail.com/profile.jpg"
             }
             ];
             builder.Entity<Models.User.SpaceUser>().HasData(users);
@@ -67,8 +67,8 @@ namespace SpaceUser.Data
             [
                 new()
             {
-                Name = "User",
-                NormalizedName = "USER"
+                Name = "Basic",
+                NormalizedName = "BASIC"
             },
             new()
             {
