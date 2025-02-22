@@ -72,11 +72,11 @@ namespace SpaceUser.Controllers
                 {
                     await userManager.AddToRoleAsync(user, "Basic");
                     var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
-                    var confirmationLink = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token }, Request.Scheme);
+                    var confirmationLink = Url.Action("ConfirmedEmail", "Account", new { userId = user.Id, token }, Request.Scheme);
 
-                    await emailSender.SendEmailAsync(user.Email, "Confirma tu correo electrónico", $"Por favor confirma tu cuenta haciendo clic en este enlace: <a href='{confirmationLink}'>Confirmar Correo</a>");
+                    await emailSender.SendEmailAsync(user.Email, "Confirma tu Registro", $"Por Favor Confirma tu Cuenta Haciendo Click en Este Enlace: <a href='{confirmationLink}'>Confirmar Registro</a>");
 
-                    return RedirectToAction("Login", "Account");
+                    return RedirectToAction("Confirm", "Account");
                 }
                 foreach (var error in result.Errors)
                 {
@@ -86,7 +86,12 @@ namespace SpaceUser.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        public IActionResult Confirm()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> ConfirmedEmail(string userId, string token)
         {
             if (userId == null || token == null)
             {
@@ -102,7 +107,7 @@ namespace SpaceUser.Controllers
             var result = await userManager.ConfirmEmailAsync(user, token);
             if (result.Succeeded)
             {
-                return View("ConfirmEmail");
+                return View();
             }
 
             return View("Error");
