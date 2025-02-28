@@ -131,6 +131,7 @@ namespace SpaceUser.Controllers
                 user.Name = model.Name;
                 user.Surname1 = model.Surname1;
                 user.Surname2 = model.Surname2;
+                user.Email = model.Email;
                 user.PhoneNumber = model.PhoneNumber;
                 user.Bday = model.Bday;
 
@@ -151,6 +152,7 @@ namespace SpaceUser.Controllers
                 if (result.Succeeded)
                 {
                     await Logout();
+                    return RedirectToAction("Login", "Account");
                 }
                 foreach (var error in result.Errors)
                 {
@@ -201,6 +203,7 @@ namespace SpaceUser.Controllers
             if (result.Succeeded)
             {
                 await Logout();
+                return RedirectToAction("Login", "Account");
             }
             ModelState.AddModelError("", "Ha Ocurrido un Error al Intentar Eliminar el Perfil.");
             return View("Delete", model);
