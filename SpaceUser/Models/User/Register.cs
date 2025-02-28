@@ -4,6 +4,7 @@ namespace SpaceUser.Models.User
 {
     public class Register
     {
+        public String? Id { get; set; }
         [Required(ErrorMessage = "El Campo {0} es Obligatorio."), Display(Name = "Nombre: ")]
         public string? Name { get; set; }
         [Required(ErrorMessage = "El Campo {0} es Obligatorio."), Display(Name = "Apellido 1: ")]

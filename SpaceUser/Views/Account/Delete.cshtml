@@ -1,0 +1,15 @@
+﻿@model SpaceUser.Models.User.Delete
+
+@{
+    ViewData["Title"] = "Eliminar Perfil de Usuario";
+}
+<h2>Vas a Eliminar tu Perfil</h2>
+<br />
+<h3>¿Estás Seguro que Quieres Eliminar tu Perfil?</h3>
+@* <a asp-action="DeleteIt" asp-route-id="@Model.Id" type="button" class="btn btn-danger">Eliminar</a> *@
+@* <a asp-action="Profile" type="button" class="btn btn-primary">Cancelar</a> *@
+<form asp-action="DeleteIt" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" class="btn btn-danger" value="Eliminar" />
+    <a asp-action="Profile" asp-route-id="@Model.Id" class="btn btn-secondary">Cancelar</a>
+</form>
