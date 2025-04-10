@@ -124,7 +124,7 @@ namespace SpaceUser.Controllers
                 {
                     await userManager.AddToRoleAsync(user, "Basic");
                     var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
-                    var confirmationLink = Url.Action("ConfirmedEmail", "Account", new { userId = user.Id, token }, Request.Scheme);
+                    var confirmationLink = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token }, Request.Scheme);
 
                     await emailSender.SendEmailAsync(user.Email, "Confirma tu Registro", $"Por Favor Confirma tu Cuenta Haciendo Click en Este Enlace: <a href='{confirmationLink}'>Confirmar Registro</a>");
 
@@ -162,10 +162,10 @@ namespace SpaceUser.Controllers
             return BadRequest("ERROR: El E-mail de Confirmación no Está Registrado, ¿Estás Seguro que no Eliminaste tu Cuenta?.");
         }
 
-        [HttpPost("Update")]
-        public async Task<IActionResult> Update(Register model)
+        [HttpPatch("Update/{id}")]
+        public async Task<IActionResult> Update(string id, Register model)
         {
-            var user = await userManager.FindByIdAsync(model.Id);
+            var user = await userManager.FindByIdAsync(id);
             if (user == null)
             {
                 return NotFound("ERROR: Ese Usuario no Existe.");
@@ -217,10 +217,10 @@ namespace SpaceUser.Controllers
             return Ok("Loged Out.");
         }
 
-        [HttpPost("Delete")]
-        public async Task<IActionResult> Delete(Delete model)
+        [HttpDelete("Delete/{id}")]
+        public async Task<IActionResult> Delete(string id)
         {
-            var user = await userManager.FindByIdAsync(model.Id);
+            var user = await userManager.FindByIdAsync(id);
             if (user == null)
             {
                 return NotFound("ERROR: Ese Usuario no Existe.");
